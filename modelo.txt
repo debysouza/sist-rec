@@ -1,0 +1,14 @@
+FORMATO DO MODELO VETORIAL
+
+O modelo vetorial é representado por um arquivo CSV com duas colunas:
+- A primeira coluna contém o termo em letras maiúsculas, sem acento.
+- A segunda coluna contém uma lista Python de tuplas ordenadas.
+  - Cada tupla representa um documento onde o termo aparece.
+  - A tupla contém três elementos:
+    1. Posição do documento no ranking.
+    2. Número do documento.
+    3. Distância do documento para a consulta.
+
+Exemplo:
+
+PALAVRA;[(1, 123, 0.5), (2, 456, 0.8), (3, 789, 1.2)]
